@@ -73,7 +73,15 @@ The default branch is used by Quay.io to determine if a container that is built
 gets tagged with the `latest` tag.
 
 
-### A Note About Security
+### Automated Rebuilds
+
+Finally, to schedule automatic rebuilds, go to your repository setting on
+Travis and add a cron job to rebuild the containers on a daily, weekly or
+monthly basis.
+
+
+A Note About Security
+---------------------
 
 Instead of loading the script from a foreign repository and just execute it it
 is obviously possible to directly include this script in the Dockerfile
