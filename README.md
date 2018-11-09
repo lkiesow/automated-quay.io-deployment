@@ -71,3 +71,10 @@ Additionally, you can set the Quay.io default branch by setting the
 `QUAY_DEFAULT_BRANCH` environment variable. This is set to `master` by default.
 The default branch is used by Quay.io to determine if a container that is built
 gets tagged with the `latest` tag.
+
+
+### A Note About Security
+
+Instead of loading the script from a foreign repository and just execute it it
+is obviously possible to directly include this script in the Dockerfile
+repository instead.
