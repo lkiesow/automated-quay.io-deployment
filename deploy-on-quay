@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# Copyright (c) 2018 Lars Kiesow <lkiesow@uos.de>
+# https://github.com/lkiesow/automated-quay.io-deployment
+# Licensed under the terms of the MIT License.
+# See LICENSE for more details.
+
 set -ue
 
 payload="{
